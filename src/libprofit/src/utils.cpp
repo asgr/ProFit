@@ -27,6 +27,7 @@
 #include <algorithm>
 #include <functional>
 #include <vector>
+#include <numeric>      // std::accumulate
 
 #include "profit/utils.h"
 
