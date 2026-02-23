@@ -64,7 +64,7 @@ magimage(profitMakeModel(modellist=modellist, dim=c(200,200)))
 
 \dontrun{
 profitClearCache()
-tempCL=profitOpenCLEnv()
+tempCL = profitOpenCLEnv()
 magimage(profitMakeModel(modellist=modellist, dim=c(200,200), openclenv=tempCL))
 }
 }

@@ -1,9 +1,7 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
-.travis.yml
 README.md
 .crancompress
 vignettes/rsconnect
 rsconnect
 ^src/libprofit/src/.*\.o$
-^.appveyor\.yml$
