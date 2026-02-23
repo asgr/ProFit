@@ -159,6 +159,7 @@ This fine sampling step required manual resampling of the PSF by rescaling re an
 We can use `profitMakeModel` to make more complex image structure very easily. The example model below will randomly produce 20 Sersic profiles, 10 PSFs and a sky background:
 
 ```{r}
+set.seed(666)
 model2=list(
 	sersic=list(
 		xcen=runif(20,0,200),
@@ -184,7 +185,7 @@ model2=list(
 As before we can run this through `profitMakeModel` and then plot the image. This should run in ~0.5 second, which means we are scaling well with our more complex model:
 
 ```{r, fig.width=5, fig.height=5, dpi=40}
-system.time(ExampleImagePSF2<-profitMakeModel(modellist=model2, psf=ExamplePSF, dim=c(200,200)))
+system.time({ExampleImagePSF2 = profitMakeModel(modellist=model2, psf=ExamplePSF, dim=c(200,200))})
 magimage(ExampleImagePSF2, hi=1)
 ```
 

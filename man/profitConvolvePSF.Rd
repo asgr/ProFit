@@ -52,6 +52,7 @@ Aaron Robotham & Dan Taranu
 \code{\link{profitBruteConv}}, \code{\link{profitMakePointSource}}, \code{\link{profitBenchmarkConv}}
 }
 \examples{
+\dontrun{
 model = list(
 	sersic = list(
 		xcen   = c(180, 60),
@@ -82,6 +83,7 @@ temp$best
 magimage(profitConvolvePSF(model.image, psf, options=list(method='Bruteconv')))
 magimage(profitConvolvePSF(model.image, psf, options=list(method='FFTconv', fft=temp$fft)))
 magimage(profitConvolvePSF(model.image, psf, options=list(method='FFTWconv', fft=temp$fft)))
+}
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
