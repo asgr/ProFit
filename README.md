@@ -1,7 +1,8 @@
 # ProFit (R package)
 
-[![Build Status](https://travis-ci.org/ICRAR/ProFit.svg?branch=master)](https://travis-ci.org/ICRAR/ProFit)
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/ablnki926luepgi5/branch/master?svg=true)](https://ci.appveyor.com/project/rtobar/profit)
+<!-- badges: start -->
+![R-CMD-check](https://github.com/ICRAR/ProFit/workflows/R-CMD-check/badge.svg)
+<!-- badges: end -->
 
 ## Synopsis
 
