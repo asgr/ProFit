@@ -32,9 +32,11 @@ Dan Taranu
 \code{\link{profitBenchmark}}, \code{\link{profitMakeConvolver}}, \code{\link{profitOpenCLEnv}}
 }
 \examples{
+\dontrun{
 envs = profitGetOpenCLEnvs(make.envs=FALSE)
 print(envs)
 str(envs)
+}
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

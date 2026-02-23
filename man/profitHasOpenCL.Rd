@@ -27,9 +27,11 @@ Rodrigo Tobar & Aaron Robotham
 \code{\link{profitOpenCLEnv}}, \code{\link{profitOpenCLEnvInfo}}
 }
 \examples{
+\dontrun{
 profitHasOpenMP()
 profitHasOpenCL()
 profitHasFFTW()
+}
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
