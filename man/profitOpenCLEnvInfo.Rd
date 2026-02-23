@@ -35,7 +35,9 @@ Rodrigo Tobar & Aaron Robotham
 \code{\link{profitOpenCLEnv}}, \code{\link{profitClearCache}} \code{\link{profitMakeModel}}, \code{\link{profitSetupData}}
 }
 \examples{
+\dontrun{
 profitOpenCLEnvInfo()
+}
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
